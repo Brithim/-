@@ -1,0 +1,342 @@
+/******************************************************
+   L O S T     I N    F O R R E S T	
+   by Empire Elements
+   www.empire-elements.co.uk
+ ******************************************************/
+body {
+	background-color: #000000;
+}
+/******************************************************
+  Containers
+ ******************************************************/
+#Container {
+	width: 780px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 1px solid #666666;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-image: url(main-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #000000;
+	overflow: auto;
+}
+#MenuHold {
+	float: right;
+	overflow: auto;
+	width: 220px;
+}
+#Top {
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+	width: auto;
+	clear: both;
+}
+#Top h1{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 42px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+#Top h1 sup{
+	font-size: 18px;
+	font-weight: bold;
+	color: #595959;
+}
+#Top h2{
+	color: #595959;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#Top p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #757575;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+}
+#Top a{
+	border: 1px solid #686868;
+	width: 200px;
+	display: block;
+	background-color: #252525;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #ee9700;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	float: left;
+}
+#Top a:hover{
+	color: #CCCCCC;
+	background-color: #111111;
+	width: 200px;
+	display: block;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border: 1px solid #ee9700;
+}
+
+/******************************************************
+  Main Text
+ ******************************************************/
+#MainText {
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	overflow: auto;
+	vertical-align: bottom;
+	position: relative;
+	clear: both;
+	height: 1%;
+
+}
+#MainText a{
+	color: #E8930B;
+	text-decoration: underline;
+}
+#MainText a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#Left {
+	width: 360px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0px;
+	padding: 0px;
+}
+#LeftBG {
+	background-color: #151515;
+	border: 1px solid #6b6b6b;
+	margin: 0px;
+	padding: 0px;
+}
+#Left p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+	padding: 10px;
+	margin: 0px;
+}
+#Left h3{
+	margin: 0px;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #CCCCCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#Left em{
+	color: #CC6600;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+#Right {
+	float: right;
+	width: 405px;
+	background-color: #141414;
+	border: 1px solid #6b6b6b;
+	overflow: auto;
+	background-image: url(Untitled-3.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#Right p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#Right h3{
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FEFEFE;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #151515;
+	margin-top: 100px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+#Right img{
+	margin: 0px;
+	padding: 30px;
+}
+/***********  ONE FILELD ****************/
+#OneField {
+	background-color: #000000;
+	clear: both;
+	border: 1px solid #6b6b6b;
+	overflow: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#OneField p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #565656;
+	padding: 10px;
+	margin: 0px;
+}
+#OneField .img{
+	float: left;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+/***************************************
+        Photo gallery - one slope
+****************************************/
+#Gallery {
+	padding: 0px;
+	border: 1px dashed #666666;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	overflow: auto;
+	height: auto;
+	width: auto;
+}
+#Gallery h2{
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #BA441E;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin: 0px;
+}
+#Gallery ul {
+	overflow: hidden;
+	margin-left: 10px;
+	clear: both;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+#Gallery ul li {
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	display: inline;
+}
+
+#Gallery ul li a img {
+	border: 3px solid #666666;
+}
+
+#Gallery ul li a img:hover {
+
+}
+
+#Gallery ul li h2 {
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #666666;
+	padding: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-transform: uppercase;
+}
+/***************************************
+        Footer now
+****************************************/
+#Footer {
+	clear: both;
+	overflow: auto;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: 1px solid #666666;
+}
+#Footer p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+#Footer a{
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+#Footer a:hover{
+	color: #E8930B;
+	text-decoration: none;
+}

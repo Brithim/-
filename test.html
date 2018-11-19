@@ -1,0 +1,23 @@
+
+<!-- Item Presenter -->
+<script type="text/javascript" src="https://item.mapnwea.org/93d6ad6eb00950ca26b8a280057d8b21cd787a07/presenter-api.js"></script>
+
+<!-- Test player -->
+<script type="text/javascript" src="js/nwea-test-player.min.12c0404d.js"></script>
+
+<script type="text/javascript">
+    angular.module('testPlayer.services').constant('TestPlayerLocalConfig',
+        {
+            nweaAPI:                    'https://sandbox-api.nwea.org',
+            proctorPollingInterval:     12000,
+            testPlayerHost:             'test.mapnwea.org',
+            testPlayerPort:             '443',
+            testPlayerScheme:           'https://',
+            testType:                   'Map Growth',
+            urlWhiteList:               ['self','https://cdn.mapnwea.org/**']
+            , testPlayerVersion: "2.23.6/"
+        }
+    );
+</script>
+</body>
+</html>
